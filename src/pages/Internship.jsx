@@ -1,0 +1,17 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import Seo from "../components/Seo";
+const lanes=[
+ ["01","Security Research","Reconnaissance notes, attack-surface observation and research documentation."],
+ ["02","Web Security","Authorized web checks, security headers, HTTP behavior and remediation notes."],
+ ["03","OSINT & Intelligence","Public-source collection, validation, domain intelligence and visual mapping."],
+ ["04","Security Content","Technical writing, lab documentation, awareness content and report design."]
+];
+const flow=["Application","Screening","Orientation","Project Sprint","Review","Completion"];
+export default function Internship(){return <section className="internship-page">
+<Seo title="KAVACH Cybersecurity Internship" description="KAVACH cybersecurity internship for students and early-career learners working on practical authorized security projects." path="/internship"/>
+<div className="intern-hero page-pad"><div className="intern-hero-copy"><span className="section-no">15 / CYBERSECURITY INTERNSHIP</span><h1>Learn by<br/><em>building.</em></h1><p>A structured internship experience for students who want to work on cybersecurity research, documentation, practical security workflows and real project thinking.</p><div className="hero-actions"><Link className="btn btn-dark" to="/contact">Apply / Enquire ↗</Link><Link className="text-link" to="/academy">Explore Academy →</Link></div></div><div className="intern-visual"><img src="/assets/internship-hero.jpg" alt="KAVACH internship visual"/><img className="line-art" src="/graphics/internship-grid.svg" alt=""/><span className="intern-stamp">STUDENT<br/>SECURITY<br/>PROGRAM</span></div></div>
+<div className="page-pad section"><div className="section-head compact"><span className="section-no">16 / INTERNSHIP LANES</span><h2>Choose a lane.<br/><em>Build evidence.</em></h2></div><div className="intern-lanes">{lanes.map(([n,t,d])=><article key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p><Link to="/contact">Discuss placement ↗</Link></article>)}</div></div>
+<section className="intern-black"><div className="page-pad"><div className="section-head compact"><span className="section-no">17 / PROGRAM FLOW</span><h2>Small steps.<br/><em>Real output.</em></h2></div><div className="intern-flow">{flow.map((x,i)=><div key={x}><span>{String(i+1).padStart(2,"0")}</span><strong>{x}</strong>{i<flow.length-1&&<b>→</b>}</div>)}</div><div className="intern-output-grid"><article><span>OUTPUT 01</span><h3>Research notebook</h3><p>Structured notes showing what you observed, how you verified it and what you learned.</p></article><article><span>OUTPUT 02</span><h3>Security project</h3><p>A scoped project with a defined objective, evidence, limitations and responsible conclusion.</p></article><article><span>OUTPUT 03</span><h3>Final review</h3><p>A concise presentation or report that demonstrates technical understanding and communication.</p></article></div></div></section>
+<div className="page-pad intern-apply"><div className="apply-panel"><div><span className="section-no">18 / APPLICATION</span><h2>Bring your<br/><em>curiosity.</em></h2><p>Tell KAVACH about your background, interests, preferred security area and what you want to build during the internship.</p></div><Link className="btn btn-dark" to="/request?service=Cybersecurity%20Internship">Start Internship Request ↗</Link></div></div>
+</section>}

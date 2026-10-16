@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none" role="img">
+<path d="M600 70L930 190V350C930 505 800 610 600 650C400 610 270 505 270 350V190L600 70Z" stroke="#111" stroke-width="3"/>
+<path d="M600 150L840 235V350C840 460 745 535 600 570C455 535 360 460 360 350V235L600 150Z" stroke="#d8ff64" stroke-width="5"/>
+<path d="M470 355L560 445L745 265" stroke="#111" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

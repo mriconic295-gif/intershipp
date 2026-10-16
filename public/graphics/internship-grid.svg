@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none" role="img">
+<g stroke="#111" stroke-width="2" opacity=".8"><path d="M70 610L260 420L430 500L610 250L790 330L1120 90"/><path d="M70 520L250 560L420 360L650 450L840 210L1120 260"/></g>
+<g fill="#d8ff64" stroke="#111" stroke-width="2"><circle cx="260" cy="420" r="12"/><circle cx="610" cy="250" r="12"/><circle cx="840" cy="210" r="12"/></g>
+<g font-family="monospace" font-size="17" fill="#111"><text x="75" y="655">LEARN</text><text x="520" y="215">BUILD</text><text x="930" y="145">DEPLOY</text></g>
+</svg>

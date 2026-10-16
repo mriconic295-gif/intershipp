@@ -1,0 +1,13 @@
+{
+  "name": "KAVACH Solutions — Cybersecurity",
+  "short_name": "KAVACH",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d0c",
+  "theme_color": "#d9ff5c",
+  "description": "KAVACH cybersecurity, security assessment, academy and internship platform.",
+  "icons": [
+    {"src":"/assets/kavach-icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"/assets/kavach-icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none" role="img">
+<g stroke="#111" opacity=".72"><path d="M60 120H1140M60 220H1140M60 320H1140M60 420H1140M60 520H1140M60 620H1140"/><path d="M120 70V650M240 70V650M360 70V650M480 70V650M600 70V650M720 70V650M840 70V650M960 70V650M1080 70V650"/></g>
+<g fill="#111"><circle cx="240" cy="220" r="10"/><circle cx="480" cy="420" r="10"/><circle cx="720" cy="320" r="10"/><circle cx="960" cy="520" r="10"/></g>
+<g stroke="#111" stroke-width="2"><path d="M240 220L480 420L720 320L960 520"/><path d="M240 220L720 320"/><path d="M480 420L960 520"/></g>
+<g font-family="monospace" font-size="18" fill="#111"><text x="205" y="190">WEB</text><text x="440" y="390">DNS</text><text x="680" y="290">WIFI</text><text x="915" y="490">DATA</text></g>
+</svg>

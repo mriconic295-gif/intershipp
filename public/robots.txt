@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /account
+Disallow: /login
+Disallow: /signup
+
+Sitemap: https://kavachsolutions.in/sitemap.xml
