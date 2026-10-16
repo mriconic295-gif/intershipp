@@ -25,3 +25,4 @@ The `/launch-checklist` route includes a user-checkable launch readiness guide f
 ## Design update
 The existing KAVACH pages remain in place. This update adds a glass pill navbar with a sliding active/hover indicator, responsive login placement, translucent rounded surfaces, softer inputs/cards, and the new checklist page. Existing route names and Supabase auth flow are preserved.
 # intershipp
+# kavach2
